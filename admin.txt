@@ -1,0 +1,6 @@
+invisionapp
+user: tarun_dhiraj@hotmail.com
+pass: parkmeright123
+
+sql username= root
+sql password= admin
