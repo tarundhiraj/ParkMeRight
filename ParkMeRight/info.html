@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ParkMeRight</title>
+<link href="css/info.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+//open popup
+$("#pop").click(function(){
+$("#overlay_form").fadeIn(1000);
+positionPopup();
+});
+
+//close popup
+$("#close").click(function(){
+$("#overlay_form").fadeOut(500);
+});
+});
+
+//position the popup at the center of the page
+function positionPopup(){
+if(!$("#overlay_form").is(':visible')){
+return;
+}
+$("#overlay_form").css({
+left: ($(window).width() - $('#overlay_form').width()) / 2,
+top: ($(window).width() - $('#overlay_form').width()) / 7,
+position:'absolute'
+});
+}
+
+//maintain the popup at center of the page when browser resized
+$(window).bind('resize',positionPopup);
+</script>
+
+</head>
+<body>
+<br/> <br/>
+
+<div class="tagline"><h1 align="center"><strong>Welcome</strong></h1>
+</div>
+<br/> <br/>
+<h4 align="center" color="Black"> Please complete the following form to proceed...</h4>
+     <section class="info">
+        <div class='titulo'>Staff Information</div>
+		<form method='post' action='#'>
+          <input type='text' name='FirstName' placeholder='First Name'>
+		  <input type='text' name='LastName' placeholder='Last Name'>
+		  <input type='text' name='StaffId' title='Provided by administration' placeholder='Staff Id'>
+		  <input type='text' name='Phone' title='Mobile Number' placeholder='Contact'>
+		  <input type='text' name='EmailId' placeholder='Email Address'>
+		  <br/>
+          <br/> <a href="#" class="enviar" title="First Agree to terms and Conditions">Continue</a>
+		</form>
+	</section>
+<br/>
+
+<div class="tail">
+
+  <h4 align="center"><strong>Please make sure your details are correct before submitting form.</strong></h4>
+</div>
+<br/> <br/>
+<a href="#" id="pop" >Terms and conditions</a>
+<div id="overlay_form" style="display:none">
+    <h3>Terms and Conditions</h3>
+	</br>
+        <h5>1.    By accessing this site, the user is agreeing to be bound by the company's Terms and Conditions of Use, all applicable laws and regulations, and agree that they are responsible for compliance with any applicable local laws.</h5></br>
+		<h5>2.    User abide by the rules and regulations of this organization and if found guilty of not doing so, they will face instant resignation and legal actions.</h5></br>
+		<h5>3.    The organization is not responsible for anything that happens to the user outside the premises.</h5></br></br>
+	<a href="#" id="close" >Close</a>
+</div>
+
+</body>
+</html>
+
+

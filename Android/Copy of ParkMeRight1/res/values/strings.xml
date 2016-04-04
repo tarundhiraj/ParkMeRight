@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Park me Right</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="uid">Username</string>
+    <string name="bsignin">Sign In</string>
+    <string name="bsignup">Sign Up</string>
+    <string name="pwd">Password</string>
+    <string name="newuser">New User</string>
+    <string name="notyetregistered">Not Yet Registered?</string>
+    <string name="frgtpwd">Forgot Password</string>
+
+    <!-- Forgot Password -->
+
+    <string name="fpwd">Forgot Password?</string>
+    <string name="fpwdmsg">Enter your registered email_id</string>
+    <string name="fpwdsubmit">Submit</string>
+    <string name="fpwdback">Back</string>
+
+    <!-- Registration -->
+
+    <string name="user_Fname">First Name</string>
+    <string name="user_Lname">Last Name</string>
+    <string name="user_phone">Mobile</string>
+    <string name="user_email">Email-id</string>
+    <string name="pwd1">Re-enter Password</string>
+    <string name="register">Register</string>
+    <string name="reset">Reset</string>
+    <string name="enterdetails">Enter Details</string>
+    <string android:id="@+id/string1" name="Floor1" android:layout_width="wrap_content" android:layout_height="wrap_content">floor1</string>
+    <string android:id="@+id/string1" name="floor2" android:layout_width="wrap_content" android:layout_height="wrap_content">floor2</string>
+    <string name="select">Choose a floor</string>
+    <string name="select2">Choose a slot</string>
+    <string name="button_label">Book</string>
+
+    <string-array name="floor">
+        <item>Select Floor</item>
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+    </string-array>
+
+    <string name="Bookingid">bookingid</string>
+    <string name="Vehicleno">vehicleno</string>
+    <string name="type">type</string>
+    <string name="Entrytime">entrytime</string>
+    <string name="Duration">duration</string>
+
+</resources>

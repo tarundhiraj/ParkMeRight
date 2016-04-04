@@ -1,0 +1,19 @@
+1.augmented reality wala app: 
+ISBN checker,image liya info hazir types etc
+virtual path finder..use your camera and focus on the road..if destination previously set..it wil have voice asistance through which it will not ony visually display the path to follow next but also guide you..we can use better shortest path algos..will have to consider traffic also..
+
+1.b. we can build an app for say books...it will recognise books..when someone focuses its camera on any book, he/she gets a list of things he/she can do..like buy online,price chek,review of book,ratings,find whther availble for free..
+
+likewise idea can be extended to other objects as well..(shorter version of augmented reality :P)
+
+2.app which will tell the places around me..
+like places to eat at
+shops,malls,cinema halls,etc
+
+
+3.it's not an app...it's an application :P
+we can connect to only one network using wifi..what if we can connect to more than one networks simultaneously n utilies the internet speed which is sum of individual speeds....
+
+4. an app which can be used to create 360 degree view fields by recording videos using cells app....
+
+5. family tree wala idea for app...

@@ -1,0 +1,68 @@
+@CHARSET "ISO-8859-1";
+#holder{    
+height:160px;    
+width:510px;
+background-color:#F5F5F5;
+border:1px solid #A4A4A4;
+margin-left:10px;   
+}
+#place {
+position:relative;
+margin:10px;
+}
+#place a{
+font-size:0.5em;
+}
+#place li
+{
+ list-style: none outside none;
+ position: absolute;   
+}    
+#place li:hover
+{
+background-color:#15e3a2;      
+} 
+#place .seat{
+	background-image:url(../images/avail.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:70px;
+	width:40px;
+	display:block;
+	
+}
+#place .selectedSeat
+{
+	background-image:url(../images/unavail.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:70px;
+	width:40px;
+	display:block;         
+}
+#place .selectingSeat
+{
+	background-image:url(../images/book.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:70px;
+	width:40px;
+	display:block;         
+}
+
+
+#place .row-3, #place .row-4{
+margin-top:20px;
+}
+#seatDescription li{
+verticle-align:middle;    
+list-style: none outside none;
+padding-left:35px;
+height:80px;
+float:left;
+}
+
+input:disabled
+{
+background:#ffffff;
+}

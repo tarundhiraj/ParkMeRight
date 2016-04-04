@@ -1,0 +1,39 @@
+ - ROOT\NT_CONNCTFYMP\0001]
+>>>  Section start 2014/02/04 08:17:36.301
+      cmd: C:\Windows\system32\svchost.exe -k netsvcs
+<<<  Section end 2014/02/04 08:17:36.303
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [DIF_PROPERTYCHANGE - ROOT\NT_CONNCTFYMP\0000]
+>>>  Section start 2014/02/04 08:17:36.304
+      cmd: C:\Windows\system32\svchost.exe -k netsvcs
+<<<  Section end 2014/02/04 08:17:36.305
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [DIF_DESTROYPRIVATEDATA]
+>>>  Section start 2014/02/04 08:17:36.305
+      cmd: C:\Windows\system32\svchost.exe -k netsvcs
+<<<  Section end 2014/02/04 08:17:36.306
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [DIF_DESTROYPRIVATEDATA]
+>>>  Section start 2014/02/04 08:17:36.306
+      cmd: C:\Windows\system32\svchost.exe -k netsvcs
+<<<  Section end 2014/02/04 08:17:36.306
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [DIF_DESTROYPRIVATEDATA]
+>>>  Section start 2014/02/04 08:17:36.306
+      cmd: C:\Windows\system32\svchost.exe -k netsvcs
+<<<  Section end 2014/02/04 08:17:36.307
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [DIF_DESTROYPRIVATEDATA]
+>>>  Section start 2014/02/04 08:17:36.307
+      cmd: C:\Windows\system32\svchost.exe -k netsvcs
+<<<  Section end 2014/02/04 08:17:36.307
